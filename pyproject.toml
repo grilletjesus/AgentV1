@@ -1,0 +1,19 @@
+[project]
+name = "agentv1"
+version = "0.1.0"
+description = "Ollama and Langchain powered AI agent platform"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "firecrawl-py>=1.15.0",
+    "firestore[history]>=0.0.8",
+    "langchain>=0.3.21",
+    "langchain-community>=0.3.20",
+    "langchain-core>=0.3.49",
+    "langchain-google-firestore>=0.5.0",
+    "langchain-ollama>=0.3.0",
+    "python-dotenv>=1.1.0",
+]
+
+[tool.uv]
+cache-dir = "/home/vscode/.cache/uv"
